@@ -1,0 +1,28 @@
+.widget {
+  position: relative;
+  width: calc((100% - 80px) / 2);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 2px 12px 0 #dfe3eb;
+  box-sizing: border-box;
+
+  a {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: black;
+    text-decoration: none;
+  }
+
+  button {
+    border: none;
+    background: yellowgreen;
+    line-height: 40px;
+    padding: 0 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0 2px 12px 0 #dfe3eb;
+  }
+}

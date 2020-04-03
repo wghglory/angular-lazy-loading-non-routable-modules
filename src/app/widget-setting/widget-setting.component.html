@@ -1,1 +1,8 @@
-<p>widget-setting works!</p>
+<div class="widget">
+  <h2>
+    {{ data }}
+    <a href="javascript:void(0)"
+      (click)="close()">&times;</a>
+  </h2>
+  <button (click)="event.emit('widget click')">click widget</button>
+</div>
